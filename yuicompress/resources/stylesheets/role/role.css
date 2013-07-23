@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+.b-role-rightpanel{
+	padding-left:295px;
+}
+.table_role_list {
+	line-height:30px;
+	margin-top:5px;
+}
+.table_role_list tr th {
+	background:#ddd;
+	padding:0 5px;
+    color:#999999;
+}
+.table_role_list thead tr {
+	background:#dddddd;
+}
+.table_role_list .td_subtitle {
+	background:#e9e9e9;
+	border-top:2px solid #fff;
+}
+.table_role_list tr td {
+	/*border-bottom:1px solid #ddd;*/
+	padding:0 5px;
+    color:#999999;
+}
+.table_role_innerlist tr td {
+	padding:2px 0;
+	border-bottom:none;
+}
+.tab.clear_none{ clear:none}
+.b-role-leftpanel{width:270px; float:left}
+.select_w235{width:270px;}
+.table_restricted th{ font-size:16px; color:#444}
+.restricted_link{width:80%; text-align:right; margin-bottom:10px;}
+.restricted_tree{width:80%; height:260px; border:1px solid #ccc; clear:both}
+a.noneselect_color{ color:#777; cursor:default}
+a.noneselect_color:hover{color:#777; text-decoration:underline;}
+.rolelisttable tr.copy_bg td{border-bottom:1px solid #dddddd;}
+.b-grid-single-table tr.highlight_bg{background:#FFFAE2}
+.rolelisttable tr.highlight_bg{background:#FFFAE2}
+.rolelisttable tr.highlight_bg th{background:#FFFAE2}
+.rolelisttable tr:hover{background:#efefef}
+.b-grid-single-table tr.highlight_bg td a{ text-decoration:none; font-weight:bold; color:#333; }
+.resource_smalltitle{width:80%; background:#efefef; padding:3px 10px; color:#747474; margin-bottom:10px;}
+.rolesbg_div{background: #efefef; padding: 10px;}
+.largetxt{font-size:18px;}
+.rolelisttable{
+    margin-bottom:15px;
+    width:100%;
+}
+.rolelisttable tr th{padding-top:8px; font-weight: bold; background:url("../settings/img/arrow_right.png") no-repeat scroll 6px 12px #ffffff; color:#333333; cursor: pointer;  padding: 8px 0px 8px 18px; font-weight: normal; border-bottom:1px solid #cccccc; border-top:0px; }
+.rolelisttable tr th.b-node-extended{background:url("../settings/img/arrow_down2.png") no-repeat scroll 12px 12px #ffffff; color:#333333; }
+.rolelisttable tr th, .rolelisttable tr td{ border-bottom: 1px solid #cccccc;}
+.rolelisttable td{height: 17px; padding:4px; padding-left:25px;}
+.rolelisttable tr.highlight_bg td a {font-weight: bold; text-decoration: none; color:#333333; }

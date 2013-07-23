@@ -1,0 +1,63 @@
+.infowindow-inner {
+	min-height: 100px;
+	background: none repeat scroll 0 0 #DEF1F8;
+	border: 1px solid #0E80B2;
+	padding: 8px;
+	margin-bottom: 5px;
+}
+
+.infowindow-inner table td:first-child {
+	text-align: right;
+	padding-right: 10px;
+}
+
+.infowindow-inner legend {
+	background: none repeat scroll 0 0 #0F81B3;
+	border: 1px solid #0F81B3;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	text-transform: capitalize;
+}
+
+.infowindow-hints {
+	color: #0F81B3;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.location-correct {
+	margin: 20px 0 30px 30px;
+}
+
+.location-correct li {
+	padding-bottom: 5px;
+}
+
+.location-edit li {
+	width: 300px;
+	padding-bottom: 5px;
+}
+
+.location-correct a,.location-edit a {
+	color: #009DDC !important;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.location-confirm-title {
+	padding: 5px;
+	font-weight: bold;
+}
+
+.location-confirm-content {
+	margin: 5px 5px 10px;
+	padding: 5px;
+	background-color: #efefef;
+	width:90%;
+}
+.b-gmap-location{
+    display: none;
+}
